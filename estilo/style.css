@@ -39,18 +39,19 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 150px;
+    min-height: 100%;
     text-align: center;
-    padding-top: 40px;
+    padding: 20px 30px 10px 10px;
 }
 
 header > h1 {
     color: white;
-    font-size: 3em;
+    font-size: 2em;
     font-family: var(--fonte-android);
     font-weight: normal;
     margin: 0px;
     margin-top: 13px;
+    padding-bottom: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.486);
 }
 
@@ -58,7 +59,7 @@ header > p {
     color: white;
     font-family: var(--fonte-destaque);
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1em;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -88,7 +89,7 @@ color: var(--cor5);
 }
 
 main {
-    min-width: 300px;
+    min-width: 250px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
